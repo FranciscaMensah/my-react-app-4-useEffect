@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    color: #ffffff;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+    cursor: default;
+    background: linear-gradient(to right, #2d056e, #0059ff, #2dceff)
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo--icon{
+    flex-shrink: 0;
+    margin-right: .2rem;
+}
+
+.logo--text{
+    font-size: 1.2rem;
+}
+
+.header--subtitle{
+    font-size: .8rem;
+}
